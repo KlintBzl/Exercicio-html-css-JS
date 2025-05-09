@@ -8,7 +8,7 @@ frm.addEventListener("submit", (e) => {
     if(txtval % 2 == 0){
         aga2.innerText = `O número ${txtval} é Par`;
     }else{
-        aga2.innerText = `O número ${txtval} é Impar`;
+        aga2.innerText = `O número ${txtval} é Ímpar`;
     }
-    e.preventDefault;
+    e.preventDefault();
 });
