@@ -1,11 +1,23 @@
-const frm = document.querySelector("form") 
-const hagadois = document.querySelector("h2")
-let numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-let maiores = [0];
-frm.addEventListener("submit", (e) => {
-    
-    maiores = !numeros.filter(n => n % frm.valor.value);
-    e.preventDefault();
-    hagadois.innerText =`Sequência: ${maiores}`;
-});
+const frm = document.querySelector("form")
 
+frm.addEventListener("submit", (e) => {
+e.preventDefault();
+      const inicio = parseInt(document.getElementById("inicial").value);
+      const fim = parseInt(document.getElementById("final").value);
+      let passo = parseInt(document.getElementById("valor").value);
+      const resultado = document.querySelector("h2");
+
+
+      
+
+      if (inicio < fim) {
+        for (let i = inicio; i <= fim; i += passo) {
+          resultado.innerHTML += `${i} `;
+        }
+      } else {
+        for (let i = inicio; i >= fim; i -= passo) {
+          resultado.innerHTML += `${i} `;
+        }
+      }
+
+    })
