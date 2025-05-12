@@ -30,6 +30,7 @@ div button{
     background-color: rgba(72, 227, 98, 0.791);
     margin-left: 2%;
     margin-top: 1%;
+    cursor: pointer;
 }
 
 div h2{
@@ -52,6 +53,10 @@ div h2{
     float: right;
 }
 #trik{
+    width: 18%;
+    float: right;
+}
+#oviraptor{
     width: 18%;
     float: right;
 }
