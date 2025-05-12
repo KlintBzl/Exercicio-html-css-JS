@@ -1,0 +1,52 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-image: url(Anqui.png);
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    margin-top: 7%;
+    padding: 1%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    background-color: rgba(235, 251, 62, 0.608);
+}
+div{
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 2% 0%;
+    background-color: rgba(227, 200, 0, 0.857);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+}
+
+input{
+    margin: 1%;
+    font-size: large;
+    border: none;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+}
+
+#butao{
+    text-align: center;
+    background-color:rgba(240, 248, 255, 0)
+}
+
+a button{
+    border: none;
+    padding: 1%;
+    border-radius: 10px;
+    background-color: rgb(221, 255, 0);
+}
