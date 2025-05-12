@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url(braq-codigo.png);
+    background-image: url(Anqui.png);
     background-size: cover;
 }
 h1{
@@ -48,5 +48,5 @@ a button{
     border: none;
     padding: 1%;
     border-radius: 10px;
-    background-color: rgb(0, 119, 255);
+    background-color: rgb(0, 30, 255);
 }
