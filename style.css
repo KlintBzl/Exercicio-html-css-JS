@@ -55,3 +55,34 @@ div h2{
     width: 18%;
     float: right;
 }
+
+@media (max-width: 400px){
+    #steg{
+        width: 25%;
+        float: right;
+    }
+    #braq{
+        width: 22%;
+        float: right;
+    }
+    #paras{
+        width: 25%;
+        float: right;
+    }
+    #anqui{
+        width: 29%;
+        float: right;
+    }
+    #trik{
+        width: 28%;
+        float: right;
+    }
+
+    div{
+        margin: 7% 15%;
+        padding: 2% 0%;
+        background-color: rgba(255, 255, 255, 0.857);
+        border-radius: 20px;
+        background-image: url(./fotos/dino.jpg);
+    }
+}
