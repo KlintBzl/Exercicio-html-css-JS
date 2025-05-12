@@ -68,6 +68,15 @@ a button{
 }
 
 @media (min-width: 400px) and (max-width: 1000px){
+    div{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    h1{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
     body{
         background-image: url(estegozinho.png);
     }
