@@ -63,6 +63,12 @@ a button{
         margin-right: 10%;
     }
     body{
-        background-image: url();
+        background-image: url(esteguinho.png);
+    }
+}
+
+@media (min-width: 400px) and (max-width: 1000px){
+    body{
+        background-image: url(estegozinho.png);
     }
 }
