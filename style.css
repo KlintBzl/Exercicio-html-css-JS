@@ -60,6 +60,10 @@ div h2{
     width: 18%;
     float: right;
 }
+#giga{
+    width: 15%;
+    float: right;
+}
 
 @media (max-width: 400px){
     #steg{
