@@ -1,19 +1,21 @@
-document.getElementById('form-lista').addEventListener('submit', function(e) {
-      e.preventDefault(); // Evita o recarregamento da página
+const lista = document.getElementById('lista-compras');
+    const formulario = document.getElementById('form-lista');
+    const inputItem = document.getElementById('item');
 
-      const itemInput = document.getElementById('item');
-      const itemTexto = itemInput.value.trim();
+    formulario.addEventListener('submit', function(e) {
+      e.preventDefault();
+      const itemTexto = inputItem.value.trim();
 
-      if (itemTexto === '') {
-        alert('Por favor, digite um item válido.');
-        return;
+      if (itemTexto !== '') {
+        const novoItem = document.createElement('li');
+        novoItem.textContent = itemTexto;
+        lista.appendChild(novoItem);
+        inputItem.value = '';
+        inputItem.focus();
       }
-
-      const lista = document.getElementById('lista-compras');
-      const novoItem = document.createElement('li');
-      novoItem.textContent = itemTexto;
-      lista.appendChild(novoItem);
-
-      itemInput.value = ''; // Limpa o campo
-      itemInput.focus();    // Foca novamente no input
     });
+
+    function limparLista() {
+      lista.innerHTML = '';
+      inputItem.focus();
+    }
