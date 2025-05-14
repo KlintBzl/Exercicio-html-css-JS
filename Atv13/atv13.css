@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url(Dinosaur\ Doente\ em\ Cama\ Confortável.png);
+    background-image: url(Dino\ Confuso\ com\ Estrela\ Azul.png);
     background-size: cover;
 }
 h1{
@@ -33,6 +33,10 @@ input{
     border: none;
     padding: 1%;
     border-radius: 10px;
+}
+
+label{
+    color: white;
 }
 
 button[type="submit"]{

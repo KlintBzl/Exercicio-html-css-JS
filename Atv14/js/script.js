@@ -14,5 +14,5 @@ function sortear() {
       }
 
       const numeroSorteado = Math.floor(Math.random() * (max - min + 1)) + min;
-      resultado.textContent = `🎲 Número sorteado: ${numeroSorteado}`;
+      resultado.textContent = `Número sorteado: ${numeroSorteado}`;
     }

@@ -92,6 +92,14 @@ div h2{
     width: 14%;
     float: right;
 }
+#gali{
+    width: 14%;
+    float: right;
+}
+#compy{
+    width: 15%;
+    float: right;
+}
 
 @media (max-width: 400px){
     #steg{

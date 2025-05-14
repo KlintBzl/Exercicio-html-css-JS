@@ -7,7 +7,7 @@
 
     function mostrarResultados() {
       const total = votos.reduce((a, b) => a + b, 0);
-      const opcoes = ["JavaScript", "Python", "Java"];
+      const opcoes = ["Parassaurolofo", "Tiranossauro Rex", "Velociraptor"];
       let html = `<p>Total de votos: <strong>${total}</strong></p>`;
 
       for (let i = 0; i < votos.length; i++) {
