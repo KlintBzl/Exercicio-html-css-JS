@@ -10,11 +10,13 @@
 <body>
     <h1>Verificar idade</h1>
     <div id="exer5">
-        <form action="">
-            <input type="number" id="idade" placeholder="Idade" required> <br>
-            <input type="submit" id="btnCalcular" value="Verificar">
-            <h2></h2>
+        <form id="form-idade">
+            <label>Data de Nascimento:</label><br>
+            <input type="date" id="dataNascimento" required><br><br>
+            <button type="submit">Verificar</button>
         </form>
+
+    <div id="resultado"></div>
     </div>
     <div id="butao">
     <a href="/index.html"><button>Voltar</button></a>
