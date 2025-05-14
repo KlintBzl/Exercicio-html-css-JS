@@ -8,22 +8,22 @@
     <title>Atividade 10</title>
 </head>
 <body>
-  <h1>Conversor de Temperatura</h1>
+  <h1>Cadastro com Validação</h1>
   <div id="exerc10">
-  <form id="form-conversao">
-    <label for="celsius">Temperatura em Celsius (°C):</label><br>
-    <input type="number" id="celsius" required><br><br>
+  <form onsubmit="validarFormulario(event)">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome">
 
-    <label for="unidade">Converter para:</label><br>
-        <select id="unidade" required>
-            <option value="fahrenheit">Fahrenheit (°F)</option>
-            <option value="kelvin">Kelvin (K)</option>
-        </select><br><br>
+    <label for="email">E-mail:</label>
+    <input type="email" id="email">
 
-        <button type="submit">Converter</button>
-    </form>
+    <label for="senha">Senha:</label>
+    <input type="password" id="senha">
 
-    <div id="resultado"></div>
+    <button type="submit">Enviar</button>
+  </form>
+
+  <div id="mensagem"></div>
 
     </div>
 

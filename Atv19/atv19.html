@@ -8,22 +8,13 @@
     <title>Atividade 10</title>
 </head>
 <body>
-  <h1>Conversor de Temperatura</h1>
+  <h1>Jogo de Adivinhação</h1>
   <div id="exerc10">
-  <form id="form-conversao">
-    <label for="celsius">Temperatura em Celsius (°C):</label><br>
-    <input type="number" id="celsius" required><br><br>
+  <input type="number" id="palpite" placeholder="Digite seu palpite">
+  <button onclick="verificar()">Tentar</button>
+  <button onclick="reiniciar()">Reiniciar</button>
 
-    <label for="unidade">Converter para:</label><br>
-        <select id="unidade" required>
-            <option value="fahrenheit">Fahrenheit (°F)</option>
-            <option value="kelvin">Kelvin (K)</option>
-        </select><br><br>
-
-        <button type="submit">Converter</button>
-    </form>
-
-    <div id="resultado"></div>
+  <div id="mensagem"></div>
 
     </div>
 

@@ -7,5 +7,5 @@ frm.addEventListener("submit", (e) => {
 
     let media = (frm.numero1.value * frm.numero2.value * frm.numero3.value) / 3;
 
-    h2.innerText(`Média: ${media}`);
+    h2.textcontent = `Média: ${media}`;
 })

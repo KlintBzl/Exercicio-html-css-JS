@@ -3,27 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="atv10.css">
+    <link rel="stylesheet" href="atv12.css">
     <script src="js/script.js" defer></script>
-    <title>Atividade 10</title>
+    <title>Atividade 12</title>
 </head>
 <body>
-  <h1>Conversor de Temperatura</h1>
-  <div id="exerc10">
-  <form id="form-conversao">
-    <label for="celsius">Temperatura em Celsius (°C):</label><br>
-    <input type="number" id="celsius" required><br><br>
+  <h1>Cronômetro</h1>
+  <div id="exerc12">
+  <div id="display">00:00:00</div>
 
-    <label for="unidade">Converter para:</label><br>
-        <select id="unidade" required>
-            <option value="fahrenheit">Fahrenheit (°F)</option>
-            <option value="kelvin">Kelvin (K)</option>
-        </select><br><br>
-
-        <button type="submit">Converter</button>
-    </form>
-
-    <div id="resultado"></div>
+  <button onclick="iniciar()">▶️ Iniciar</button>
+  <button onclick="pausar()">⏸️ Pausar</button>
+  <button onclick="zerar()">🔁 Zerar</button>
 
     </div>
 
