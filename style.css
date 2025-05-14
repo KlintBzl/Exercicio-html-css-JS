@@ -37,7 +37,7 @@ div h2{
     text-align: center;
 }
 #steg{
-    width: 14%;
+    width: 15%;
     float: right;
 }
 #braq{
@@ -82,6 +82,14 @@ div h2{
 }
 #dilo{
     width: 19%;
+    float: right;
+}
+#paqui{
+    width: 16%;
+    float: right;
+}
+#lateni{
+    width: 14%;
     float: right;
 }
 

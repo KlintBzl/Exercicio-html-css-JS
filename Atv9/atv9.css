@@ -67,11 +67,6 @@ a button{
     background-color: rgba(255, 255, 255, 0.719);
 }
 
-body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      margin: 50px;
-    }
 
     .semaforo {
       width: 100px;

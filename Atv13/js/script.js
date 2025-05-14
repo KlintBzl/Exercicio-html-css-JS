@@ -14,18 +14,15 @@ function gerarSenha() {
 
       let senha = '';
 
-      // Garante ao menos um de cada tipo
       senha += letras.charAt(Math.floor(Math.random() * letras.length));
       senha += numeros.charAt(Math.floor(Math.random() * numeros.length));
       senha += simbolos.charAt(Math.floor(Math.random() * simbolos.length));
 
-      // Preenche o restante aleatoriamente
       for (let i = 3; i < tamanho; i++) {
         senha += todos.charAt(Math.floor(Math.random() * todos.length));
       }
 
-      // Embaralha os caracteres
       senha = senha.split('').sort(() => Math.random() - 0.5).join('');
 
-      senhaDiv.textContent = `🔐 ${senha}`;
+      senhaDiv.textContent = `Senha: ${senha}`;
     }
