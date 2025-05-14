@@ -64,6 +64,10 @@ div h2{
     width: 15%;
     float: right;
 }
+#ed{
+    width: 18%;
+    float: right;
+}
 
 @media (max-width: 400px){
     #steg{
