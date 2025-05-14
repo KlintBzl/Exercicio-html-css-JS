@@ -100,6 +100,10 @@ div h2{
     width: 15%;
     float: right;
 }
+#velo{
+    width: 16%;
+    float: right;
+}
 
 @media (max-width: 400px){
     #steg{
