@@ -7,18 +7,18 @@ function validarFormulario(event) {
       const mensagem = document.getElementById("mensagem");
 
       if (!nome || !email || !senha) {
-        mensagem.textContent = "⚠️ Preencha todos os campos.";
+        mensagem.textContent = "Preencha todos os campos.";
         mensagem.className = "erro";
         return;
       }
 
       const emailValido = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
       if (!emailValido) {
-        mensagem.textContent = "⚠️ E-mail inválido.";
+        mensagem.textContent = " E-mail inválido.";
         mensagem.className = "erro";
         return;
       }
 
-      mensagem.textContent = "✅ Formulário válido!";
+      mensagem.textContent = "Identidade confirmada";
       mensagem.className = "sucesso";
     }
