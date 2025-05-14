@@ -20,14 +20,14 @@ document.getElementById('form-contagem').addEventListener('submit', function(e) 
       let contagem = '';
       if (inicio < fim) {
         for (let i = inicio; i <= fim; i += passo) {
-          contagem += `${i} 👉 `;
+          contagem += `${i} > `;
         }
       } else {
         for (let i = inicio; i >= fim; i -= passo) {
-          contagem += `${i} 👉 `;
+          contagem += `${i} > `;
         }
       }
-      contagem += '🏁';
+      contagem += '*Final*';
 
       resultadoDiv.innerHTML = `<p><strong>Contando:</strong><br>${contagem}</p>`;
     });
