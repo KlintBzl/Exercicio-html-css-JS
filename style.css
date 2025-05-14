@@ -72,7 +72,14 @@ div h2{
     width: 17%;
     float: right;
 }
-
+#espino{
+    width: 19%;
+    float: right;
+}
+#dilo{
+    width: 19%;
+    float: right;
+}
 
 @media (max-width: 400px){
     #steg{

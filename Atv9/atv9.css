@@ -1,0 +1,110 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-image: url(ChatGPT\ Image\ 14\ de\ mai.\ de\ 2025\,\ 01_41_32.png);
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    margin-top: 7%;
+    padding: 1%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    background-color: rgba(134, 134, 134, 0.452);
+}
+div{
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 2% 0%;
+    background-color: rgba(80, 80, 80, 0.692);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+}
+
+input{
+    margin: 1%;
+    font-size: large;
+    border: none;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+button[type="submit"]{
+    cursor: pointer;
+    margin: 1%;
+    font-size: large;
+    border: none;
+    padding: 1%;
+    border-radius: 10px;
+}
+button{
+    cursor: pointer;
+    margin: 1%;
+    font-size: large;
+    border: none;
+    padding: 1%;
+    border-radius: 10px;
+}
+#resposta{
+    border-radius: 20px;
+}
+
+#butao{
+    text-align: center;
+    background-color:rgba(240, 248, 255, 0)
+}
+
+a button{
+    border: none;
+    padding: 1%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.719);
+}
+
+body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 50px;
+    }
+
+    .semaforo {
+      width: 100px;
+      background-color: #333;
+      padding: 20px;
+      border-radius: 20px;
+      margin: 0 auto 30px;
+    }
+
+    .luz {
+      width: 60px;
+      height: 60px;
+      margin: 15px auto;
+      border-radius: 50%;
+      background-color: #111;
+      transition: background-color 0.3s;
+    }
+
+    .vermelho.ativo {
+      background-color: red;
+    }
+
+    .amarelo.ativo {
+      background-color: yellow;
+    }
+
+    .verde.ativo {
+      background-color: green;
+    }
+
+    button {
+      padding: 10px 20px;
+      margin: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
