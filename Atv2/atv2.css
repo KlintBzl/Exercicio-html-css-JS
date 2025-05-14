@@ -15,7 +15,7 @@ h1{
     margin-right: 30%;
     border-top-right-radius: 7px;
     border-top-left-radius: 7px;
-    background-color: rgba(177, 228, 174, 0.608);
+    background-color: rgba(174, 193, 228, 0.608);
 }
 div{
     margin-left: 30%;
@@ -35,8 +35,13 @@ input{
     border-radius: 10px;
 }
 
-input[type="submit"]{
+button[type="submit"]{
     cursor: pointer;
+    margin: 1%;
+    font-size: large;
+    border: none;
+    padding: 1%;
+    border-radius: 10px;
 }
 
 #butao{
