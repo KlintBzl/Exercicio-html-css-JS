@@ -44,6 +44,10 @@ button[type="submit"]{
     border-radius: 10px;
 }
 
+#resultado{
+    border-radius: 20px;
+}
+
 #butao{
     text-align: center;
     background-color:rgba(240, 248, 255, 0)
