@@ -17,7 +17,7 @@ body{
 }
 
 div{
-    margin: 7% 20%;
+    margin: 5% 20%;
     padding: 2% 0%;
     background-color: rgba(255, 255, 255, 0.857);
     border-radius: 20px;
@@ -102,6 +102,10 @@ div h2{
 }
 #velo{
     width: 16%;
+    float: right;
+}
+#carno{
+    width: 18%;
     float: right;
 }
 
