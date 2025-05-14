@@ -1,29 +1,39 @@
-const frm = document.querySelector("form");
-const resposta = document.querySelector("h2");
+document.getElementById('form-calculadora').addEventListener('submit', function(e) {
+      e.preventDefault();
 
-function verificarGenero() {
-  const radios = document.getElementsByName("decidir");
-  let valorSelecionado = null;
+      const num1 = parseFloat(document.getElementById('numero1').value);
+      const num2 = parseFloat(document.getElementById('numero2').value);
+      const operacao = document.getElementById('operacao').value;
+      const resultadoDiv = document.getElementById('resultado');
+      let resultado;
 
-  for (const radio of radios) {
-    if (radio.checked) {
-      valorSelecionado = radio.value;
-      break;
-    }
-  }
+      if (isNaN(num1) || isNaN(num2)) {
+        resultadoDiv.innerHTML = 'Por favor, insira dois números válidos.';
+        return;
+      }
 
-  if (valorSelecionado) {
-    alert("Gênero selecionado: " + valorSelecionado);
-  } else {
-    alert("Nenhuma opção selecionada.");
-  }
-}
-
-frm.addEventListener("submit", (e) => {
-e.preventDefault();
-
-verificarGenero();
-
-    
-
-})
+      switch (operacao) {
+        case 'soma':
+          resultado = num1 + num2;
+          resultadoDiv.innerHTML = `${num1} + ${num2} = ${resultado}`;
+          break;
+        case 'subtracao':
+          resultado = num1 - num2;
+          resultadoDiv.innerHTML = `${num1} − ${num2} = ${resultado}`;
+          break;
+        case 'multiplicacao':
+          resultado = num1 * num2;
+          resultadoDiv.innerHTML = `${num1} × ${num2} = ${resultado}`;
+          break;
+        case 'divisao':
+          if (num2 === 0) {
+            resultadoDiv.innerHTML = 'Erro: divisão por zero!';
+          } else {
+            resultado = num1 / num2;
+            resultadoDiv.innerHTML = `${num1} ÷ ${num2} = ${resultado}`;
+          }
+          break;
+        default:
+          resultadoDiv.innerHTML = 'Operação inválida.';
+      }
+    });

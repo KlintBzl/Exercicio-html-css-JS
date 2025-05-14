@@ -35,8 +35,20 @@ input{
     border-radius: 10px;
 }
 
-input[type="submit"]{
+button[type="submit"]{
     cursor: pointer;
+    margin: 1%;
+    font-size: large;
+    border: none;
+    padding: 1%;
+    border-radius: 10px;
+}
+select{
+    margin: 1%;
+    font-size: large;
+    border: none;
+    padding: 1%;
+    border-radius: 10px;
 }
 
 #butao{
